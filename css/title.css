@@ -1,28 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap');
-/*font-family: 'IBM Plex Sans', sans-serif;*/
-
-/* colors */
-/* #F3EEE8; */
-/* #ffaec0 */
-
-
-body {
-  margin: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
-  background-color: #0A0A0A;
-
-    --color-text: #ffaec0;
-    --color-number: #F3EEE8;
-    --color-bg: #0A0A0A;
-    --color-link: #1352d1;
-    --color-link-hover: #F3EEE8;
-    color: var(--color-text);
-    background-color: var(--color-bg);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 /* LINK EFFECT */
+
 a {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: medium;
@@ -71,14 +48,6 @@ a:focus-visible {
     justify-content: center;
     position: relative;
 }
-
-/*.content__item::before {
-    color: var(--color-number);
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: counters(itemcounter, ".", decimal-leading-zero);
-}*/
 
 .link {
     cursor: pointer;
