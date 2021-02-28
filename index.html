@@ -2,19 +2,142 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Paradoxical Objects</title>
+    <meta name="description" content="Paradoxical Object:  video sculpture art from 1069 to today" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/title.css">
+  <!--   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this title in a modern browser that supports CSS Variables.");</script>
   </head>
+
   <body>
-    <body style="margin:0px;">
-  <div class="container" style="position:absolute;">
-    <div style="width: 800px; margin: 0 auto;">
-      <h1 style="color:red;">Hello World</h1>
+    <canvas id="c"></canvas>
+    <div class="main_container">
+      <div class="header">
+        <div class="navbar content__item">
+          <a href="http://www.peertospace.eu/" class="link link--helike" target="_blank"> <span> peer to space </span></a>
+        </div>
 
+        <div class="title">
+          <h1>Paradoxical Objects</h1>
+          <h2>Video Sculpture Art from 1969 to Today</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="content">
+            <h2>The Exhibition</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2> Other Information</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+
+          <div class="content" id="content_artist">
+            <h2> The Artists</h2>
+            <div class="container_names">
+              <div class="artist_name">
+              <span><a href="#"> William Anastasi</a></span>
+              <br>
+              <span><a href="#">Bainbridge Benton</a></span>
+              <br>
+              <span><a href="#">Balve Frank</a></span>
+              <br>
+              <span><a href="#">Barcia Colombo Gabriel</a></span>
+              <br>
+              <span><a href="#">Cannestra Amy</a></span>
+              <br>
+              <span><a href="#">Chabrowski Yvon</a></span>
+              <br>
+              <span><a href="#">Conolly James</a></span>
+              <br>
+              <span><a href="#">Cooley Kevin</a></span>
+              <br>
+              <span><a href="#">Darimaz D’arcy</a></span>
+              <br>
+              <span><a href="#">Ebert Manjia </a></span>
+              <br>
+              <span><a href="#">Everett Daniel</a></span>
+              <br>
+              <span><a href="#">Exonemo</a></span>
+              <br>
+              <span><a href="#">Fake Stefano</a></span>
+              <br>
+              <span><a href="#">Fieres Ornella</a></span>
+              <br>
+              <span><a href="#">Hardy James</a></span>
+              <br>
+              <span><a href="#">Hart Claudia</a></span>
+              <br>
+              <span><a href="#">Holland Faith</a></span>
+              <br>
+              <span><a href="#">Kau Annebarbe</a></span>
+              <br>
+              <span><a href="#">Madörin Philipp</a></span>
+              <br>
+              <span><a href="#">Marck</a></span>
+              <br>
+              <span><a href="#">May Alex</a></span>
+              <br>
+              <span><a href="#">Menegon Martina</a></span>
+              <br>
+              <span><a href="#">Moravec Tomáš & Matej Al-Ali</a></span>
+              </div>
+              <div class="artist_name" id="right">
+              <a href="#">Müller Sali</a>
+              <br>
+              <a href="#">Obando Juan</a>
+              <br>
+              <a href="#">Oursler Tony</a>
+              <br>
+              <a href="#">Paik Nam June</a>
+              <br>
+              <a href="#">Panzarino Monica</a>
+              <br>
+              <a href="#">Park Taezoo</a>
+              <br>
+              <a href="#">Perborg Björn</a>
+              <br>
+              <a href="#">Radomsky René</a>
+              <br>
+              <a href="#">Rodriguez Allison Maria</a>
+              <br>
+              <a href="#">Rosenbach Ulrike</a>
+              <br>
+              <a href="#">Sasson Nicolas</a>
+              <br>
+              <a href="#">Schneider Ira</a>
+              <br>
+              <a href="#">Sid and Geri</a>
+              <br>
+              <a href="#">Thein Ivonne</a>
+              <br>
+              <a href="#">Truckenbrod Joan</a>
+              <br>
+              <a href="#">Van der Auwera Emmanuel</a>
+              <br>
+              <a href="#">Vedder Maria</a>
+              <br>
+              <a href="#">Vible Andy</a>
+              <br>
+              <a href="#">Vostell Wolf</a>
+              <br>
+              <a href="#">Welz Peter</a>
+              <br>
+              <a href="#">Ye Xuan</a>
+              <br>
+              <a href="#">THE LAST ONE</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="container_exhibition">
+        <h1>Enter The Exhibition</h1>
+      </div>
     </div>
-  </div>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/102/three.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js"></script>
-  <script type="text/javascript" src="starfield.js"></script>
-</body>
+  <script type="text/javascript" src="../javascript/starfield.js"></script>
   </body>
 </html>

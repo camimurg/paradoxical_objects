@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap');
+/*font-family: 'IBM Plex Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+/* font-family: 'Orbitron', sans-serif; */
+/* colors */
+/* #F3EEE8; */
+/* #ffaec0 */
+
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #0A0A0A;
+
+    --color-text: #ffaec0;
+    --color-number: #F3EEE8;
+    --color-bg: #0A0A0A;
+    --color-link: #1352d1;
+    --color-link-hover: #F3EEE8;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#c {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+p {
+  color: #F3EEE8;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.main_container {
+  position: absolute;
+  height: 100vh;
+  padding: 20px 300px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  overflow: scroll;
+}
+
+.container a {
+  color: #F3EEE8;
+}
+
+.content {
+  width: 50%;
+}
+
+.content h2 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.content p {
+  padding-right: 60px;
+  text-align: justify;
+}
+
+.container_names {
+  display: flex;
+  justify-content: space-between;
+
+}
+#content_artist {
+  width: 500px;
+}
+
+.artist_name {
+  width: 50%;
+}
+
+#right {
+  text-align: end;
+}
