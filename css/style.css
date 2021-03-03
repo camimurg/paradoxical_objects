@@ -5,6 +5,7 @@
 /* colors */
 /* #F3EEE8; */
 /* #ffaec0 */
+/* #de6ce0 */
 
 
 body {
@@ -35,6 +36,11 @@ p {
   color: #F3EEE8;
 }
 
+.header {
+ display:flex;
+ justify-content: space-around;
+}
+
 .title {
   display: flex;
   flex-direction: column;
@@ -46,13 +52,14 @@ p {
 .main_container {
   position: absolute;
   height: 100vh;
-  padding: 20px 300px;
+  margin: 20px;
+  padding: 20px 40px;
 }
 
 .container {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: flex-start;
   overflow: scroll;
@@ -67,7 +74,7 @@ p {
 }
 
 .content h2 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .content p {
