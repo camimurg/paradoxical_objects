@@ -13,16 +13,15 @@ body {
   height: 100vh;
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: #0A0A0A;
-
-    --color-text: #ffaec0;
-    --color-number: #F3EEE8;
-    --color-bg: #0A0A0A;
-    --color-link: #1352d1;
-    --color-link-hover: #F3EEE8;
-    color: var(--color-text);
-    background-color: var(--color-bg);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  --color-text: #ffaec0;
+  --color-number: #F3EEE8;
+  --color-bg: #0A0A0A;
+  --color-link: #1352d1;
+  --color-link-hover: #F3EEE8;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #c {
@@ -41,14 +40,6 @@ p {
  justify-content: space-around;
 }
 
-.title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-}
-
 .main_container {
   position: absolute;
   height: 100vh;
@@ -56,22 +47,30 @@ p {
   padding: 20px 40px;
 }
 
-.container {
-  width: 100%;
+.title_container {
+  margin: 30px auto;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  overflow: scroll;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.container a {
+.grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px 32px;
+  /*display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;*/
+  overflow: hidden;
+}
+
+.grid-container a {
   color: #F3EEE8;
 }
 
-.content {
-  width: 50%;
-}
 
 .content h2 {
   font-family: 'IBM Plex Sans', sans-serif;
@@ -87,8 +86,9 @@ p {
   justify-content: space-between;
 
 }
+
 #content_artist {
-  width: 500px;
+  width: 100%;
 }
 
 .artist_name {
@@ -98,3 +98,37 @@ p {
 #right {
   text-align: end;
 }
+
+
+@media screen and (max-width: 800px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .info {
+    grid-column: 1 / span 4;
+  }
+
+  .artist {
+    grid-column: 1 / span 4;
+  }
+
+  .content p {
+  padding-right: 0;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }*/
