@@ -1,8 +1,11 @@
 /* LINK EFFECT */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
 
-a {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: medium;
+
+.navbar a {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
     text-decoration: none;
     color: #ffaec0;
     outline: none;
@@ -73,8 +76,9 @@ a:focus-visible {
 }
 
 .link--helike {
-    font-family: aktiv-grotesk-extended, sans-serif;
-    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 
 .link--helike:hover span {
