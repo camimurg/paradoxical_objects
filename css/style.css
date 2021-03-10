@@ -31,8 +31,16 @@ body {
   z-index: -1;
 }
 
+.main_container h2 {
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
 p {
   color: #F3EEE8;
+  line-height: 1.5;
+  padding-right: 60px;
+  text-align: justify;
 }
 
 .header {
@@ -72,13 +80,13 @@ p {
 }
 
 
-.content h2 {
+/*.content h2 {
   font-family: 'IBM Plex Sans', sans-serif;
-}
+}*/
 
-.content p {
-  padding-right: 60px;
-  text-align: justify;
+.content a {
+  line-height: 1.5;
+  text-decoration: none;
 }
 
 .container_names {
@@ -99,6 +107,12 @@ p {
   text-align: end;
 }
 
+.container_exhibition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
 
 @media screen and (max-width: 800px) {
 

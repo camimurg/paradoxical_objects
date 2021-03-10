@@ -1,15 +1,21 @@
 /* LINK EFFECT */
+@font-face {
+  font-family: 'Georgia';
+  src: url('../font/Georgia.ttf');
+  src: url('../font/Georgia.ttf') format('truetype');
+}
 
-a {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: medium;
+
+.navbar a {
+    font-family: 'Georgia', sans-serif;
+    letter-spacing: 2px;
     text-decoration: none;
-    color: #ffaec0;
+    color: #8c8888;
     outline: none;
 }
 
 a:hover {
-    color: #ffaec0;
+    color: lightgrey;
     outline: none;
 }
 
@@ -73,8 +79,9 @@ a:focus-visible {
 }
 
 .link--helike {
-    font-family: aktiv-grotesk-extended, sans-serif;
-    font-weight: bold;
+    font-family: 'Georgia', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 
 .link--helike:hover span {
