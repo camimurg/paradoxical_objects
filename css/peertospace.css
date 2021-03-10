@@ -1,18 +1,21 @@
 /* LINK EFFECT */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+@font-face {
+  font-family: 'Georgia';
+  src: url('../font/Georgia.ttf');
+  src: url('../font/Georgia.ttf') format('truetype');
+}
 
 
 .navbar a {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Georgia', sans-serif;
     letter-spacing: 2px;
-    font-weight: 500;
     text-decoration: none;
-    color: #ffaec0;
+    color: #8c8888;
     outline: none;
 }
 
 a:hover {
-    color: #ffaec0;
+    color: lightgrey;
     outline: none;
 }
 
@@ -76,7 +79,7 @@ a:focus-visible {
 }
 
 .link--helike {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Georgia', sans-serif;
     letter-spacing: 2px;
     font-weight: 500;
 }
