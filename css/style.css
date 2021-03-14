@@ -4,8 +4,9 @@
 /* font-family: 'Orbitron', sans-serif; */
 /* colors */
 /* #F3EEE8; */
-/* #ffaec0 */
+/* #E97DB1 */
 /* #de6ce0 */
+/* #02b7dd */
 
 
 body {
@@ -13,7 +14,7 @@ body {
   height: 100vh;
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: #0A0A0A;
-  --color-text: #ffaec0;
+  --color-text: #02b7dd;
   --color-number: #F3EEE8;
   --color-bg: #0A0A0A;
   --color-link: #1352d1;
@@ -34,6 +35,7 @@ body {
 .main_container h2 {
   letter-spacing: 3px;
   font-weight: 400;
+  font-style: italic;
 }
 
 p {
@@ -79,7 +81,6 @@ p {
   color: #F3EEE8;
 }
 
-
 /*.content h2 {
   font-family: 'IBM Plex Sans', sans-serif;
 }*/
@@ -107,11 +108,26 @@ p {
   text-align: end;
 }
 
+.title_exhibition h1{
+  color: #de6ce0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
 .container_exhibition {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center
+}
+
+.video_section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
 }
 
 @media screen and (max-width: 800px) {
