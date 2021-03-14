@@ -40,7 +40,8 @@ body {
 
 p {
   color: #F3EEE8;
-  line-height: 1.5;
+  line-height: 1.7;
+  margin-right: 60px;
   padding-right: 60px;
   text-align: justify;
 }
@@ -63,6 +64,10 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.title_exhibition h1 {
+  font-style: italic;
 }
 
 .grid-container {
