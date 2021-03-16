@@ -2,6 +2,9 @@
 /*font-family: 'IBM Plex Sans', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
 /* font-family: 'Orbitron', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
 /* colors */
 /* #F3EEE8; */
 /* #E97DB1 */
@@ -12,7 +15,7 @@
 body {
   margin: 0;
   height: 100vh;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #0A0A0A;
   --color-text: #02b7dd;
   --color-number: #F3EEE8;
@@ -39,6 +42,8 @@ body {
 }
 
 p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   color: #F3EEE8;
   line-height: 1.7;
   margin-right: 60px;
